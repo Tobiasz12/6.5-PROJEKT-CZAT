@@ -6,7 +6,6 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 const UsersService = require('./UsersService');
-
 const userService = new UsersService();
 
 app.use(express.static(_dirname + '/public'));
@@ -16,7 +15,6 @@ app.get('/', function(req, res){
 });
 
 io.on('connection', function(socket){
-    //klient połaczony ? , what nex't -,-
     socket.on("join", function(name){
         userService.addUser({
             id: socket.id,

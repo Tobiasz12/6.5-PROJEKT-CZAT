@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-
 import styles from './css/UserForm.css';
 
 class UserForm extends Component {
