@@ -7,9 +7,6 @@ var env = process.env.NODE_ENV || 'development';
 
 module.exports = {
     entry: [
-        'react-hot-loader/patch',
-        'webpack-dev-server/client?http://localhost:8080',
-        'webpack/hot/only-dev-server',
         './client/index.js'
     ],
     output: {
@@ -38,20 +35,12 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'public/index.html',
+            template: './client/index.html',
             filename: 'index.html',
             inject: 'body',
         }),
     ]
 };
-
-var plugins = [
-    new HtmlWebpackPlugin({
-            template: 'public/index.html',
-            filename: 'index.html',
-            inject: 'body',
-        })
-];
 
 console.log('NODE_ENV:', env);
 
