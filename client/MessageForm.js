@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import styles from './css/MessageForm.css';
+import styles from './MessageForm.css';
 
-class MessageForm Component {
+
+class MessageForm extends Component {
     constructor(props) {
         super(props);
         this.state = {text: ''};
@@ -30,7 +31,7 @@ class MessageForm Component {
                     value={this.state.text}
                     placeholder='Message'
                 />
-            </form>
+            </from>
         );
     }
 }

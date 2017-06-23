@@ -5,8 +5,6 @@ var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 var OptimizeJsPlugin = require('optimize-js-plugin');
 var env = process.env.NODE_ENV || 'development';
 
-
-
 var config = {
     entry: [
         './client/index.js'
@@ -17,10 +15,15 @@ var config = {
     },
     module: {
         rules: [
-            {
-              test: /\.js$/,
-              loader: 'babel-loader',
-            },
+{
+    test: /\.jsx?$/,         // Match both .js and .jsx files
+    exclude: /node_modules/,
+    loader: 'babel-loader',
+    query:
+      {
+        presets:['react']
+      }
+},
             {
                 test: /\.css$/,
                     use: [
