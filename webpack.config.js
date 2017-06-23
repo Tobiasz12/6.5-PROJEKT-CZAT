@@ -13,8 +13,8 @@ module.exports = {
         './client/index.js'
     ],
     output: {
-      filename: './bundle.js',
-      path: path.resolve(__dirname, 'public'),
+      filename: 'app.bundle.js',
+      path: path.join(__dirname, 'public'),
     },
     module: {
         rules: [
