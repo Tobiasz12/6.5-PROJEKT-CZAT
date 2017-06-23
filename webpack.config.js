@@ -8,22 +8,22 @@ var env = process.env.NODE_ENV || 'development';
 var config = {
     entry: [
         './client/index.js'
-    ],
+            ],
     output: {
-      filename: 'app.bundle.js',
-      path: path.join(__dirname, './public'),
+        filename: 'app.bundle.js',
+        path: path.join(__dirname, './public'),
     },
     module: {
         rules: [
-{
-    test: /\.jsx?$/,         // Match both .js and .jsx files
-    exclude: /node_modules/,
-    loader: 'babel-loader',
-    query:
-      {
-        presets:['react']
-      }
-},
+            {
+                test: /\.jsx?$/,         // Match both .js and .jsx files
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+                query:
+          {
+                presets:['react']
+          }
+    },
             {
                 test: /\.css$/,
                     use: [
