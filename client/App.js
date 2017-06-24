@@ -46,36 +46,35 @@ class App extends Component {
     }
 
     renderLayout() {
-       return (
-          <div className={styles.App}>
+        return (<div className={styles.App}>
             <div className={styles.AppHeader}>
-              <div className={styles.AppTitle}>
-                ChatApp
-              </div>
-              <div className={styles.AppRoom}>
-                App room
-              </div>
+                <div className={styles.AppTitle}>
+                    ChatApp
+                </div>
+                <div className={styles.AppRoom}>
+                    App room
+                </div>
             </div>
             <div className={styles.AppBody}>
-              <UsersList
-                users={this.state.users}
-              />
-              <div className={styles.MessageWrapper}>
-                <MessageList
-                  messages={this.state.messages}
+                <UsersList
+                    users={this.state.users}
                 />
-                <MessageForm
-                  onMessageSubmit={message => this.handleMessageSubmit(message)}
-                  name={this.state.name}
-                />
-              </div>
+                <div className={styles.MessageWrapper}>
+                    <MessageList
+                        messages={this.state.messages}
+                    />
+                    <MessageForm
+                        onMessageSubmit={message => this.handleMessageSubmit(message)}
+                        name={this.state.name}
+                    />
+                </div>
             </div>
-          </div>
-       );
+        </div>
+        );
     }
 
     renderUserForm() {
-        return (<UserForm onUserSubmit={name => this.handleUserSubmit(name)} />)
+       return (<UserForm onUserSubmit={name => this.handleUserSubmit(name)} />)
     }
 };
     export default App;
