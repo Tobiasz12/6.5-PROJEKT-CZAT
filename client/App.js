@@ -6,33 +6,32 @@ import MessageList from './MessageList';
 import UsersList from './UsersList';
 import UserForm from './UserForm';
 
-
 const socket = io('/');
 
 class App extends Component {
     constructor(props) {
         super(props);
-        this.state = {users: [], message: [], text: '', name: ''};
-    }
+        this.state = {users: [], messages: [], text: '', name: ''};
+  }
 
-    componentDidMount(){
-        socket.on('message', message => this.messageRecieve(message));
-        socket.on('update', ({users}) => this.chatUpdate(users));
+    componentDidMount() {
+      socket.on('message', message => this.messageRecieve(message));
+      socket.on('update', ({users}) => this.chatUpdate(users));
     }
 
     messageReceive(message) {
-        const messages = [message, ...this.state.message];
-        this.setState({messages});
+      const messages = [message, ...this.state.messages];
+      this.setState({messages});
     }
 
     chatUpdate(users) {
-        this.setState({users});
+      this.setState({users});
     }
 
     handleMessageSubmit(message) {
-        const messages = [message, ...this.state.messages];
-        this.setState({messages});
-        socket.emit('message', message);
+      const messages = [message, ...this.state.messages];
+      this.setState({messages});
+      socket.emit('message', message);
     }
 
     handleUserSubmit(name) {
@@ -41,36 +40,38 @@ class App extends Component {
     }
 
     render() {
-        return this.state.name !== '' ? this.renderLayout() : this.renderUserForm();
+        return this.state.name !== '' ? (
+          this.renderLayout()
+        ) : this.renderUserForm()
     }
 
     renderLayout() {
-        return (
-            <div className={styles.App}>
-                <div className={styles.AppHeader}>
-                    <div className={styles.AppTitle}>
-                        chatApp
-                    </div>
-                    <div className={styles.AppRoom}>
-                        App room
-                    </div>
-                </div>
-                <div className={styles.AppBody}>
-                    <UsersList
-                        users={this.state.users}
-                    />
-                    <div className={styles.MessageWrapper}>
-                        <MessageList
-                            messages={this.state.messages}
-                        />
-                        <MessageForm
-                            onMessageSubmit={message => this.handleMessageSubmit(message)}
-                            name={this.state.name}
-                        />
-                    </div>
-                </div>
+       return (
+          <div className={styles.App}>
+            <div className={styles.AppHeader}>
+              <div className={styles.AppTitle}>
+                ChatApp
+              </div>
+              <div className={styles.AppRoom}>
+                App room
+              </div>
             </div>
-        );
+            <div className={styles.AppBody}>
+              <UsersList
+                users={this.state.users}
+              />
+              <div className={styles.MessageWrapper}>
+                <MessageList
+                  messages={this.state.messages}
+                />
+                <MessageForm
+                  onMessageSubmit={message => this.handleMessageSubmit(message)}
+                  name={this.state.name}
+                />
+              </div>
+            </div>
+          </div>
+       );
     }
 
     renderUserForm() {
