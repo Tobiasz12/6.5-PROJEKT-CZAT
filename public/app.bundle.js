@@ -33765,11 +33765,12 @@ exports = module.exports = __webpack_require__(29)(undefined);
 
 
 // module
-exports.push([module.i, ".KBSgW9ouINVnlU7FLqGnB {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    width: 75vw;\n    padding: 20px;\n}", ""]);
+exports.push([module.i, ".KBSgW9ouINVnlU7FLqGnB {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    width: 75vw;\n    padding: 20px;\n\n\n}\n.NaGtBGVrqrYBUHVJvdmmh {\n  margin: 10px;\n  padding: 10px;\n  width: 210px;\n  float:left;\n  background: #99cbed;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  border-top-left-radius: 10px;\n  word-wrap: break-word;\n}\nspan {\n    margin-left: 5px;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"MessageList": "KBSgW9ouINVnlU7FLqGnB"
+	"MessageList": "KBSgW9ouINVnlU7FLqGnB",
+	"Message": "NaGtBGVrqrYBUHVJvdmmh"
 };
 
 /***/ }),

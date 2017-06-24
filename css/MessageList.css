@@ -5,4 +5,21 @@
     justify-content: flex-start;
     width: 75vw;
     padding: 20px;
+
+
+}
+.Message {
+  margin: 10px;
+  padding: 10px;
+  width: 210px;
+  float:left;
+  background: #99cbed;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 10px;
+  word-wrap: break-word;
+  
+}
+span {
+    margin-left: 5px;
 }
