@@ -18,11 +18,11 @@ body {
 
 .AppTitle {
     display: flex;
-    width: 25vw;
+    width: 25vh;
     border-right: 1px solid #ccc;
     justify-content: center;
     box-sizing: border-box;
-    padding: 20px;
+    
 }
 
 .AppRoom {

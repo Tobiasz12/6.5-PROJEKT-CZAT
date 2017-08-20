@@ -33480,7 +33480,7 @@ exports = module.exports = __webpack_require__(29)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n    margin: 0;\n}\n\n._2uUXX1XTjDg8yMtDLZtA-b {\n    display: flex;\n    flex-direction: column;\n    flex: 1;\n    height: 100vh;\n}\n\n._2xKP5Lp3yjeUNTqd5QZEFU {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    border-bottom: 1px solid #ccc;\n}\n\n._3-euaSsBhYkokS3kTmYgET {\n    display: flex;\n    width: 25vw;\n    border-right: 1px solid #ccc;\n    justify-content: center;\n    box-sizing: border-box;\n    padding: 20px;\n}\n\n._1uJp_JRbwma2M0lrGTHGFX {\n    display: flex;\n    width: 75vw;\n    justify-content: center;\n    box-sizing: border-box;\n    padding: 20px;\n}\n\n._3z7z_NBoK6RaG_DY4TQdi4 {\n    display: flex;\n    flex-direction: row;\n    flex: 1;\n}\n\n._2qvgFG_LAcv-RY1Z8JBMWD {\n    display: flex;\n    flex-direction: column;\n    width: 75vw;\n    flex: 1;\n}", ""]);
+exports.push([module.i, "body {\r\n    margin: 0;\r\n}\r\n\r\n._2uUXX1XTjDg8yMtDLZtA-b {\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex: 1;\r\n    height: 100vh;\r\n}\r\n\r\n._2xKP5Lp3yjeUNTqd5QZEFU {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    border-bottom: 1px solid #ccc;\r\n}\r\n\r\n._3-euaSsBhYkokS3kTmYgET {\r\n    display: flex;\r\n    width: 25vh;\r\n    border-right: 1px solid #ccc;\r\n    justify-content: center;\r\n    box-sizing: border-box;\r\n    \r\n}\r\n\r\n._1uJp_JRbwma2M0lrGTHGFX {\r\n    display: flex;\r\n    width: 75vw;\r\n    justify-content: center;\r\n    box-sizing: border-box;\r\n    padding: 20px;\r\n}\r\n\r\n._3z7z_NBoK6RaG_DY4TQdi4 {\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex: 1;\r\n}\r\n\r\n._2qvgFG_LAcv-RY1Z8JBMWD {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 75vw;\r\n    flex: 1;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -33675,7 +33675,7 @@ exports = module.exports = __webpack_require__(29)(undefined);
 
 
 // module
-exports.push([module.i, ".abq398m-zPiNPgv_cFdfo {\n    display: flex;\n    flex-direction: row;\n}\n\n._1xKwWOOGsrWgAiJSCrbVN0 {\n    flex: 1;\n    padding: 20px;\n    border: 0;\n    border-top: 1px solid #ccc;\n}", ""]);
+exports.push([module.i, ".abq398m-zPiNPgv_cFdfo {\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n\r\n._1xKwWOOGsrWgAiJSCrbVN0 {\r\n    flex: 1;\r\n    padding: 20px;\r\n    border: 0;\r\n    border-top: 1px solid #ccc;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -33765,7 +33765,7 @@ exports = module.exports = __webpack_require__(29)(undefined);
 
 
 // module
-exports.push([module.i, ".KBSgW9ouINVnlU7FLqGnB {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    width: 75vw;\n    padding: 20px;\n\n\n}\n.NaGtBGVrqrYBUHVJvdmmh {\n  margin: 10px;\n  padding: 10px;\n  width: 210px;\n  float:left;\n  background: #99cbed;\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  border-top-left-radius: 10px;\n  word-wrap: break-word;\n}\nspan {\n    margin-left: 5px;\n}\n", ""]);
+exports.push([module.i, ".KBSgW9ouINVnlU7FLqGnB {\r\n    flex: 1;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-start;\r\n    width: 75vw;\r\n    padding: 20px;\r\n\r\n\r\n}\r\n.NaGtBGVrqrYBUHVJvdmmh {\r\n  margin: 10px;\r\n  padding: 10px;\r\n  width: 210px;\r\n  float:left;\r\n  background: #99cbed;\r\n  border-top-right-radius: 5px;\r\n  border-bottom-right-radius: 5px;\r\n  border-top-left-radius: 10px;\r\n  word-wrap: break-word;\r\n  \r\n}\r\nspan {\r\n    margin-left: 5px;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -33849,7 +33849,7 @@ exports = module.exports = __webpack_require__(29)(undefined);
 
 
 // module
-exports.push([module.i, ".LdNp2y6dLTwjiW0akLtEM {\n    display: flex;\n    flex: 1;\n    width: 25vw;\n    justify-content: flex-start;\n    flex-direction: column;\n    border-right: 1px solid #ccc;\n}\n\n._2CdTMoZ6K_S-SCBy65wG-b {\n    padding: 20px;\n    text-align: center;\n    background: #ccc;\n\n}\n\n._15W86JKU5_JBU7sAp88ZEZ {\n    margin: 0;\n    padding: 0;\n\n}\n\n._1LrNxNMXJiMTmM52AGgeZw {\n    list-style: none;\n    border-bottom: 1px solid #ccc;\n    padding: 20px;\n    margin: 0 0 0 20px;\n}\n", ""]);
+exports.push([module.i, ".LdNp2y6dLTwjiW0akLtEM {\r\n    display: flex;\r\n    flex: 1;\r\n    width: 25vw;\r\n    justify-content: flex-start;\r\n    flex-direction: column;\r\n    border-right: 1px solid #ccc;\r\n}\r\n\r\n._2CdTMoZ6K_S-SCBy65wG-b {\r\n    padding: 20px;\r\n    text-align: center;\r\n    background: #ccc;\r\n\r\n}\r\n\r\n._15W86JKU5_JBU7sAp88ZEZ {\r\n    margin: 0;\r\n    padding: 0;\r\n\r\n}\r\n\r\n._1LrNxNMXJiMTmM52AGgeZw {\r\n    list-style: none;\r\n    border-bottom: 1px solid #ccc;\r\n    padding: 20px;\r\n    margin: 0 0 0 20px;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
@@ -33942,7 +33942,7 @@ exports = module.exports = __webpack_require__(29)(undefined);
 
 
 // module
-exports.push([module.i, "._3UDjB0crTheGEtMVm6yFae {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 100vw;\n    height: 100vh;\n}\n\n._8xv_NSadzyy6hgwH1eYGd {\n    padding: 20px;\n    font-size: 2em;\n    border: 0;\n    border-bottom: 1px solid #ccc;\n    width: 510px;\n}", ""]);
+exports.push([module.i, "._3UDjB0crTheGEtMVm6yFae {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 100vw;\r\n    height: 100vh;\r\n}\r\n\r\n._8xv_NSadzyy6hgwH1eYGd {\r\n    padding: 20px;\r\n    font-size: 2em;\r\n    border: 0;\r\n    border-bottom: 1px solid #ccc;\r\n    width: 510px;\r\n}", ""]);
 
 // exports
 exports.locals = {
