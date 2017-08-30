@@ -1,6 +1,7 @@
 .MessageForm {
     display: flex;
     flex-direction: row;
+    width: 60%;
 }
 
 .MessageInput {

@@ -33480,7 +33480,7 @@ exports = module.exports = __webpack_require__(29)(undefined);
 
 
 // module
-exports.push([module.i, "body {\r\n    margin: 0;\r\n}\r\n\r\n._2uUXX1XTjDg8yMtDLZtA-b {\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex: 1;\r\n    height: 100vh;\r\n}\r\n\r\n._2xKP5Lp3yjeUNTqd5QZEFU {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    border-bottom: 1px solid #ccc;\r\n}\r\n\r\n._3-euaSsBhYkokS3kTmYgET {\r\n    display: flex;\r\n    width: 25vh;\r\n    border-right: 1px solid #ccc;\r\n    justify-content: center;\r\n    box-sizing: border-box;\r\n    \r\n}\r\n\r\n._1uJp_JRbwma2M0lrGTHGFX {\r\n    display: flex;\r\n    width: 75vw;\r\n    justify-content: center;\r\n    box-sizing: border-box;\r\n    padding: 20px;\r\n}\r\n\r\n._3z7z_NBoK6RaG_DY4TQdi4 {\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex: 1;\r\n}\r\n\r\n._2qvgFG_LAcv-RY1Z8JBMWD {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 75vw;\r\n    flex: 1;\r\n}", ""]);
+exports.push([module.i, "body {\r\n    margin: 0;\r\n}\r\n\r\n._2uUXX1XTjDg8yMtDLZtA-b {\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex: 1;\r\n    width: 750px;\r\n    margin: auto;\r\n    height: 70vh;\r\n    box-shadow: 5px 5px 2px #888888;\r\n}\r\n\r\n._2xKP5Lp3yjeUNTqd5QZEFU {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    border-bottom: 1px solid #ccc;\r\n}\r\n\r\n._3-euaSsBhYkokS3kTmYgET {\r\n    display: flex;\r\n    width: 25vh;\r\n    border-right: 1px solid #ccc;\r\n    justify-content: center;\r\n    box-sizing: border-box;\r\n    \r\n}\r\n\r\n._1uJp_JRbwma2M0lrGTHGFX {\r\n    display: flex;\r\n    width: 75vw;\r\n    justify-content: center;\r\n    box-sizing: border-box;\r\n    padding: 20px;\r\n}\r\n\r\n._3z7z_NBoK6RaG_DY4TQdi4 {\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex: 1;\r\n}\r\n\r\n._2qvgFG_LAcv-RY1Z8JBMWD {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 75vw;\r\n    flex: 1;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -33675,7 +33675,7 @@ exports = module.exports = __webpack_require__(29)(undefined);
 
 
 // module
-exports.push([module.i, ".abq398m-zPiNPgv_cFdfo {\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n\r\n._1xKwWOOGsrWgAiJSCrbVN0 {\r\n    flex: 1;\r\n    padding: 20px;\r\n    border: 0;\r\n    border-top: 1px solid #ccc;\r\n}", ""]);
+exports.push([module.i, ".abq398m-zPiNPgv_cFdfo {\r\n    display: flex;\r\n    flex-direction: row;\r\n    width: 60%;\r\n}\r\n\r\n._1xKwWOOGsrWgAiJSCrbVN0 {\r\n    flex: 1;\r\n    padding: 20px;\r\n    border: 0;\r\n    border-top: 1px solid #ccc;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -33765,7 +33765,7 @@ exports = module.exports = __webpack_require__(29)(undefined);
 
 
 // module
-exports.push([module.i, ".KBSgW9ouINVnlU7FLqGnB {\r\n    flex: 1;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-start;\r\n    width: 75vw;\r\n    padding: 20px;\r\n\r\n\r\n}\r\n.NaGtBGVrqrYBUHVJvdmmh {\r\n  margin: 10px;\r\n  padding: 10px;\r\n  width: 210px;\r\n  float:left;\r\n  background: #99cbed;\r\n  border-top-right-radius: 5px;\r\n  border-bottom-right-radius: 5px;\r\n  border-top-left-radius: 10px;\r\n  word-wrap: break-word;\r\n  \r\n}\r\nspan {\r\n    margin-left: 5px;\r\n}\r\n", ""]);
+exports.push([module.i, ".KBSgW9ouINVnlU7FLqGnB {\r\n    flex: 1;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-start;\r\n    width: 60vw;\r\n    padding: 20px;\r\n\r\n\r\n}\r\n.NaGtBGVrqrYBUHVJvdmmh {\r\n  margin: 10px;\r\n  padding: 10px;\r\n  width: 210px;\r\n  float:left;\r\n  background: #99cbed;\r\n  border-top-right-radius: 5px;\r\n  border-bottom-right-radius: 5px;\r\n  border-top-left-radius: 10px;\r\n  word-wrap: break-word;\r\n  \r\n}\r\nspan {\r\n    margin-left: 5px;\r\n}\r\n", ""]);
 
 // exports
 exports.locals = {
